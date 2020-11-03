@@ -1,12 +1,13 @@
 import React from 'react';
-import './app.scss';
+import GoatCorral from '../components/GoatCorral';
+import '../styles/_app.scss';
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h2>INSIDE APP COMPONENT</h2>
-        <button className="btn btn-info">I am a button</button>
+        <h2>Goat Yoga</h2>
+        <GoatCorral />
       </div>
     );
   }
